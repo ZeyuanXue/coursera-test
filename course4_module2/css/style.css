@@ -12,12 +12,13 @@ h1{
 	text-align: center;
 }
 
+
 .box{
 	border: 1px solid black;
 	background: grey;
 	color: black;
 	position: relative;
-	overflow: auto;
+
 }
 
 .box_title{
@@ -31,7 +32,7 @@ h1{
 	padding-top: 3px;
 	padding-bottom: 3px;
 	margin-bottom: 3px;
-
+	height: 16%;
 }
 
 .box_body{
@@ -40,7 +41,9 @@ h1{
 	text-align: left;
 	overflow: auto;
 	clear: both;
+	height: 81%;
 	padding: 1%;
+	
 }
 
 #sec2_title{
@@ -61,7 +64,7 @@ h1{
 	}
 
 	.box_body{
-		overflow: auto;
+		
 	}
 
 	#sec1_title{
@@ -103,7 +106,7 @@ h1{
 	}
 
 	.box_body{
-		overflow: auto;
+		
 	}
 
 	#sec1_title{
@@ -152,7 +155,7 @@ h1{
 	}
 
 	.box_body{
-		overflow: auto;
+		
 	}
 
 	#sec1_title{
