@@ -3,13 +3,13 @@ h1{
 }
 
 .box{
-
+	border: 5px solid black;
 }
 
 .box_title{
-
+	border: 5px solid black;
 }
 
 .box_body{
-	
+
 }
