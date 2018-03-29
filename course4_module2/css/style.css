@@ -65,7 +65,7 @@ h1{
 	}
 
 	.box_body{
-		
+		overflow: auto;
 	}
 
 	#sec1_title{
@@ -156,7 +156,7 @@ h1{
 	}
 
 	.box_body{
-		
+		overflow: auto;
 	}
 
 	#sec1_title{
