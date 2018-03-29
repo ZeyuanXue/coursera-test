@@ -3,6 +3,9 @@ body{
 	padding: 0px;
 	font-family: Arial, Helvetica, sans-serif;
 }
+* {
+	box-sizing: border-box;
+}
 
 
 h1{
@@ -11,57 +14,166 @@ h1{
 
 .box{
 	border: 1px solid black;
-	margin: 5px;
-	height: 250px;
-	width: 30%;
-	position: relative;
 	background: grey;
 	color: black;
+	position: relative;
 }
 
 .box_title{
 	border-bottom: 1px solid black;
 	border-left: 1px solid black;
-	text-align: center;
-	padding: 3px;
-	width: 100px;
 	position: relative;
 	float: right;
 	clear: left;
+	text-align: center;
+	font-weight: bold;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	margin-bottom: 3px;
+
 }
 
 .box_body{
-	padding: 5px;
-	border: 1px solid white;
+	/*border: 1px solid white;*/
 	width: 100%;
 	text-align: left;
 	overflow: auto;
-}
-
-#sec1_title{
-	background: yellow;
+	padding: 1%;
 }
 
 #sec2_title{
-	background: green;
+	color: white;
 }
 
-#sec3_title{
-	background: red;
+@media (min-width: 992px){
+
+	.box{
+		margin: 1%;
+		height: 250px;
+		width: 31.33%;
+	}
+
+	.box_title{
+		width: 33.33%;
+	
+	}
+
+	.box_body{
+		
+	}
+
+	#sec1_title{
+		background: yellow;
+	}
+
+	#sec2_title{
+		background: green;
+	}
+
+	#sec3_title{
+		background: red;
+	}
+
+	#sec1{
+		float: left;
+	}
+
+	#sec2{
+		float: left;
+	}
+
+	#sec3{
+		float: left;
+	}
+
 }
 
-#sec1{
+@media (min-width: 768px) and (max-width: 991px){
+	.box{
+		height: 150px;
+		margin: 1%;
+		width: 48%;
+	}
 
+	.box_title{
+		
+	
+	}
+
+	.box_body{
+		overflow: auto;
+	}
+
+	#sec1_title{
+		background: yellow;
+		width: 33.33%;
+	}
+
+	#sec2_title{
+		background: green;
+		width: 33.33%;
+	}
+
+	#sec3_title{
+		background: red;
+		width: 16.67%;
+	}
+
+	#sec3_body{
+		padding: 0.5%;
+	}
+
+	#sec1{
+		float: left;
+	}
+
+	#sec2{
+		float: left;
+	}
+
+	#sec3{
+		clear: both;
+		width: 98%;
+	}
 }
 
-#sec2{
+@media (max-width: 767px){
+	.box{
+		height: 150px;
+		margin: 1%;
+		width: 98%;
+	}
 
-}
+	.box_title{
+		width: 33.33%;
+	
+	}
 
-#sec3{
+	.box_body{
+		
+	}
 
-}
+	#sec1_title{
+		background: yellow;
+	}
 
-* {
-	box-sizing: border-box;
+	#sec2_title{
+		background: green;
+	}
+
+	#sec3_title{
+		background: red;
+	}
+
+	#sec1{
+
+	}
+
+	#sec2{
+
+	}
+
+	#sec3{
+
+	}
 }
