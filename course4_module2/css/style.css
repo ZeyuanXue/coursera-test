@@ -6,11 +6,6 @@ body{
 * {
 	box-sizing: border-box;
 }
-div p{
-	margin: 0px;
-	padding: 0px;
-	overflow: auto;
-}
 
 
 h1{
@@ -22,6 +17,7 @@ h1{
 	background: grey;
 	color: black;
 	position: relative;
+	overflow: auto;
 }
 
 .box_title{
