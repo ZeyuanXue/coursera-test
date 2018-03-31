@@ -53,15 +53,11 @@ h2{
 }
 
 .box_title{
-  border-left: 1px solid black;
-  border-bottom: 1px solid black;
-  float: right;
-  clear: left;
   text-align: center;
-  width: 16.667vw;
   padding: 1px;
   overflow: hidden;
   margin-bottom: 2px;
+  font-weight: bold;
 }
 
 .box_body{
@@ -72,15 +68,5 @@ h2{
   overflow: auto;
 }
 
-#sec1_title{
-  background: #123;
-}
 
-#sec2_title{
-  background: #456;
-}
-
-#sec3_title{
-  background: #789;
-}
 
