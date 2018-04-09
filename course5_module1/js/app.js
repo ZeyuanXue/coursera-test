@@ -14,6 +14,8 @@
         $scope.msg = "Enjoy!";
       }else if (temp>3){
         $scope.msg = "Too Much!";
+      }else if (temp == 0){
+        $scope.msg = "Please enter data first";
       }
     }
 
