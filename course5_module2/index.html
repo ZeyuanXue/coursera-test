@@ -34,7 +34,7 @@
      <ul>
        <!-- <li>Buy 10 cookies <button class="btn btn-default"><span class="glyphicon glyphicon-ok"></span> Bought</button></li>
        <li>Buy 10 cookies <button class="btn btn-default"><span class="glyphicon glyphicon-ok"></span> Bought</button></li> -->
-       <li ng-repeat="item in tbc.tbList">{{item.num}} of {{item.name}}<button class="btn btn-default" ng-click="tbc.boughtAction($index);"><span class="glyphicon glyphicon-ok"></span> Bought</button></li>
+       <li ng-repeat="item in tbc.tbList">Buy {{item.num}} {{item.name}}<button class="btn btn-default" ng-click="tbc.boughtAction($index);"><span class="glyphicon glyphicon-ok"></span> Bought</button></li>
      </ul>
      <div class="emptyMessage" ng-if="!tbc.tbList.length;">Everything is bought!</div>
     </div>
@@ -43,7 +43,7 @@
     <div class="col-md-6" ng-controller="AlreadyBoughtController as abc">
      <h2>Already Bought:</h2>
      <ul>
-       <li ng-repeat="item in abc.btList">{{item.num}} of {{item.name}}</li>
+       <li ng-repeat="item in abc.btList">Bought {{item.num}} {{item.name}}</li>
      </ul>
      <div class="emptyMessage" ng-if="!abc.btList.length;">Nothing bought yet.</div>
     </div>
