@@ -28,6 +28,7 @@
     ctrl.onRemove = function(index){
       //console.log(ctrl.found[index]);
       ctrl.found.splice(index,1);
+      ctrl.title = ctrl.found.length==0?"Nothing Found":ctrl.found.length+" item(s) found";
     };
   }
 
